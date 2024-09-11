@@ -32,37 +32,23 @@
 </header>
 
 <main>
-    <h1>Distribucion de vianda</h1>
-    <form class="distribuir-vianda-register">
-        <label for="">Heladera origen</label>
-        <input class="controls" type="text" name="heladera-origen" id="heladera-origen" placeholder="Seleccione heladera origen">
+    <section class="contenedor-tipo-usuario">
+        <h5>Tipo de Reporte</h5>
 
-        <label for="">Heladera destino</label>
-        <input class="controls" type="text" name="nro-tarjeta" id="heladera-destino" placeholder="Seleccione heladera destino">
-
-        <label for="">Cantidad de viandas</label>
-        <input class="controls" type="number" name="cant-viandas-distribucion" id="cant-viandas-distribucion" placeholder="cantidad de viandas a distribiuir">
-
-        <label for="">Fecha de distribucion </label>
-        <input class="controls" type="date" name="fecha-distribucion-viandas" id="fecha-distribucion-viandas" placeholder="Fecha de distribucion">
-
-        <label for="">Motivo </label>
-        <textarea name="motivo-distribucion-viandas" id="motivo-distribucion-viandas" class="controls"></textarea>
-        
-            
-        <div>
-            <input class="botons" type="submit" value="Donar">
-            
+        <div class="contenedor-botones-tipo-usuario">
+            <button type="button" class="botons" id="btnRegistroFallaTecnica">Reportar falla tecnica</button>
+            <button type="button" class="botons" id="btnRegistroAlerta">Reportar alerta</button>
 
         </div>
         
-        
-    </form>
 
 
+    </section>
+
+    <div id="contenedor-formulario-registro-fallas">
 
 
-    
+    </div>
 
 </main>
 
@@ -72,6 +58,6 @@
     <h6>2024 all rights reserved</h6>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src="../js/reportes.js"></script>
 </body>
 </html>

@@ -32,35 +32,26 @@
 </header>
 
 <main>
-    <h1>Distribucion de vianda</h1>
-    <form class="distribuir-vianda-register">
-        <label for="">Heladera origen</label>
-        <input class="controls" type="text" name="heladera-origen" id="heladera-origen" placeholder="Seleccione heladera origen">
+    <section class="contenedor-registro-vulnerable">
+        <h1>Solicitud de heladera</h1>
 
-        <label for="">Heladera destino</label>
-        <input class="controls" type="text" name="nro-tarjeta" id="heladera-destino" placeholder="Seleccione heladera destino">
+        <div class="form-register-vulnerable">
 
-        <label for="">Cantidad de viandas</label>
-        <input class="controls" type="number" name="cant-viandas-distribucion" id="cant-viandas-distribucion" placeholder="cantidad de viandas a distribiuir">
-
-        <label for="">Fecha de distribucion </label>
-        <input class="controls" type="date" name="fecha-distribucion-viandas" id="fecha-distribucion-viandas" placeholder="Fecha de distribucion">
-
-        <label for="">Motivo </label>
-        <textarea name="motivo-distribucion-viandas" id="motivo-distribucion-viandas" class="controls"></textarea>
-        
-            
-        <div>
-            <input class="botons" type="submit" value="Donar">
-            
-
+            <div class="form-register">
+                <h4>Formulario Solicitud heladera</h4>
+                <input class="controls" type="text" name="nombre-heladera" id="nombre-heladera" placeholder="Nombre de heladera" required>
+                <input class="controls" type="text" name="direccion-entrega-heladera" id="direccion-entrega-heladera" placeholder="Direccion de entrega" required>
+                <input class="controls" type="number" name="nro-direccion-entrega-heladera" id="direccion-entrega-heladera" placeholder="Numero" required>
+                
+                
+                <input class="botons" type="submit" value="Recomendar punto de colocacion">
+                <input class="botons" type="submit" value="Solicitar">
+               
+            </div>
+    
         </div>
-        
-        
-    </form>
-
-
-
+       
+    </section>
 
     
 
@@ -72,6 +63,6 @@
     <h6>2024 all rights reserved</h6>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src="../js/registro.js"></script>
 </body>
 </html>

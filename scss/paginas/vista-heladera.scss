@@ -1,0 +1,28 @@
+
+.contenedor-heladera{
+    height: 50vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    .contenedor-mapa-heladera{
+   
+        height: 100%;
+        iframe{
+            padding-bottom:30px ;
+        }
+        .btn-primary{
+            margin-bottom: 30px;
+        }
+    }
+
+    .contenedor-datos-personales{
+        justify-content: center;
+        align-items: center;
+        padding: 100px 300px 100px 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}

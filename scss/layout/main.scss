@@ -1,4 +1,15 @@
 main{
+    width: 100%;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #DCE3EE;
+}
+
+body{
+    background-color: #DCE3EE;
 }

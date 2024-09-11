@@ -25,39 +25,44 @@
         <nav>
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
-                <li><a href="/pages/mapa.html">Mapa</a></li>
-                <li><a href="/pages/iniciar-sesion.html">Iniciar sesion</a></li>
+                <li><a href="/pages/mapa.html">Configurar colaboraciones</a></li>
+                <li><a href="#">Ver reportes</a>
+                <li><a href="#">Cargar csv colaboraciones</a> 
+                </li>
+
+                <li><a href="/pages/iniciar-sesion.html">Cerrar sesion</a></li>
             </ul>
         </nav>
 </header>
 
 <main>
-    <h1>Distribucion de vianda</h1>
-    <form class="distribuir-vianda-register">
-        <label for="">Heladera origen</label>
-        <input class="controls" type="text" name="heladera-origen" id="heladera-origen" placeholder="Seleccione heladera origen">
 
-        <label for="">Heladera destino</label>
-        <input class="controls" type="text" name="nro-tarjeta" id="heladera-destino" placeholder="Seleccione heladera destino">
 
-        <label for="">Cantidad de viandas</label>
-        <input class="controls" type="number" name="cant-viandas-distribucion" id="cant-viandas-distribucion" placeholder="cantidad de viandas a distribiuir">
+    <section class="contenedor-persona-fisica">
+        <div class="contenedor-perfil">
+            <div class="contenedor-img-perfil">
+                <img src="#" alt="IMAGEN PERFIL">
 
-        <label for="">Fecha de distribucion </label>
-        <input class="controls" type="date" name="fecha-distribucion-viandas" id="fecha-distribucion-viandas" placeholder="Fecha de distribucion">
+            </div>
 
-        <label for="">Motivo </label>
-        <textarea name="motivo-distribucion-viandas" id="motivo-distribucion-viandas" class="controls"></textarea>
-        
-            
+            <button type="button" class="btn btn-primary btn-registro-colaboraciones">Historial de colaboraciones</button>
+        </div>
+
         <div>
-            <input class="botons" type="submit" value="Donar">
-            
+
+            <div class="contenedor-datos-personales">
+                <ul>
+                    <li>Nombre y apellido:</li>
+                    <li>DNI:</li>
+                    <li>Mas datos de usuario</li>
+                </ul>
+            </div>
 
         </div>
-        
-        
-    </form>
+
+
+    </section>
+    
 
 
 
