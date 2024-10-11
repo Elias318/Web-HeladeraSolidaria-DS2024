@@ -27,7 +27,7 @@ function mostrarFormularioFallaTecnica (){
     ` <div class="form-register">
                 <h4>Formulario reporte de falla tecnica</h4>
                 <input class="controls" type="text" name="nombre-heldera-reporte" id="nombre-heldera-reporte" placeholder="Ingrese Nombre de la heladera" required>             
-                <label for="">Fecha reporte y hora del reporte</label>
+                <label for="">Fecha y hora del reporte</label>
                 <input class="controls" type="datetime-local" name="hora-reporte" id="hora-reporte" placeholder="Ingrese hora del reporte" required>
                 
                 <input class="controls" type="number" name="tarjeta-asoc-vulnerable" id="tarjeta-asoc-vulnerable" placeholder="Numero de tarjeta asociada" required>
@@ -47,9 +47,9 @@ function mostrarFormularioAlerta(){
     formulario.className = "form-register-falla-tecnica"
     formulario.innerHTML=
     `<div class="form-register">
-                <h4>Formulario reporte de falla tecnica23232</h4>
+                <h4>Formulario reporte de alerta</h4>
                 <input class="controls" type="text" name="nombre-heldera-reporte" id="nombre-heldera-reporte" placeholder="Ingrese Nombre de la heladera" required>             
-                <label for="">Fecha reporte y hora del reporte</label>
+                <label for="">Fecha y hora del reporte</label>
                 <input class="controls" type="datetime-local" name="hora-reporte" id="hora-reporte" placeholder="Ingrese hora del reporte" required>
                 
                 <input class="controls" type="number" name="tarjeta-asoc-vulnerable" id="tarjeta-asoc-vulnerable" placeholder="Numero de tarjeta asociada" required>
